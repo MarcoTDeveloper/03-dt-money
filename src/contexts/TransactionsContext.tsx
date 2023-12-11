@@ -19,20 +19,21 @@ interface TransactionsProviderProps {
 
 export const TransactionsContext = createContext({} as TransactionsContextType);
 
-const [transactions, setTransactions] = useState<Transaction[]>([]);
-
-async function loadTransactions() {
-    const response = await fetch('http://localhost:3333/transactions')
-    const data = await response.json();
-
-    setTransactions(data);
-}
-
-useEffect(() => {
-    loadTransactions();
-},[])
-
 export function TransactionsProvider({ children }: TransactionsProviderProps ) {
+    
+    const [transactions, setTransactions] = useState<Transaction[]>([]);
+
+    async function loadTransactions() {
+        const response = await fetch('http://localhost:3333/transactions')
+        const data = await response.json();
+
+        setTransactions(data);
+    }
+
+    useEffect(() => {
+        loadTransactions();
+    },[])
+
     return (
         <TransactionsContext.Provider value={{ transactions }}>
             {children}
