@@ -12,6 +12,24 @@ export function Summary() {
 
                 <strong>R$ 17.400,00</strong>
             </div>
+
+            <div>
+                <header>
+                    <span>Entradas</span>
+                    <ArrowCircleUp size={32} color="#00b37e" />
+                </header>
+
+                <strong>R$ 17.400,00</strong>
+            </div>
+
+            <div>
+                <header>
+                    <span>Entradas</span>
+                    <ArrowCircleUp size={32} color="#00b37e" />
+                </header>
+
+                <strong>R$ 17.400,00</strong>
+            </div>
         </SummaryContainer>
     )
 }
