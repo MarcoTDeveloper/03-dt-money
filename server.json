@@ -39,6 +39,14 @@
       "type": "outcome",
       "createdAt": "2023-12-12T02:10:28.295Z",
       "id": 5
+    },
+    {
+      "description": "Compra de um celular novo",
+      "category": "Compra",
+      "price": 2700,
+      "type": "outcome",
+      "createdAt": "2023-12-12T14:43:59.808Z",
+      "id": 6
     }
   ]
 }
