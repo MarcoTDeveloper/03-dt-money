@@ -1,28 +1,44 @@
 {
-    "transactions": [
-        {
-            "id": 1,
-            "description": "Desenvolvimento de site",
-            "type": "income",
-            "category": "Venda",
-            "price": 14000,
-            "createdAt": "2023-12-11T18:54:37.341Z"
-        },
-        {
-            "id": 2,
-            "description": "Hamburger",
-            "type": "outcome",
-            "category": "Alimentação",
-            "price": 50,
-            "createdAt": "2023-12-11T18:44:37.341Z"
-        },
-        {
-            "id": 3,
-            "description": "Ignite Rocketseat",
-            "type": "outcome",
-            "category": "Educação",
-            "price": 1980,
-            "createdAt": "2023-12-11T18:24:37.341Z"
-        }
-    ]
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2023-12-11T18:54:37.341Z"
+    },
+    {
+      "id": 2,
+      "description": "Hamburger",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 50,
+      "createdAt": "2023-12-11T18:44:37.341Z"
+    },
+    {
+      "id": 3,
+      "description": "Ignite Rocketseat",
+      "type": "outcome",
+      "category": "Educação",
+      "price": 1980,
+      "createdAt": "2023-12-11T18:24:37.341Z"
+    },
+    {
+      "description": "Desenvolvimento de app",
+      "category": "Venda",
+      "price": 10000,
+      "type": "income",
+      "createdAt": "2023-12-12T01:52:31.954Z",
+      "id": 4
+    },
+    {
+      "description": "Água",
+      "category": "Alimentação",
+      "price": 20,
+      "type": "outcome",
+      "createdAt": "2023-12-12T02:10:28.295Z",
+      "id": 5
+    }
+  ]
 }
